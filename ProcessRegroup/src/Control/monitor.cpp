@@ -15,6 +15,6 @@ void monitor::processRegroup(const std::vector<std::string>& group_by_type){
 }
 void monitor::sendToJson(const std::string filePath){
     ioFromJson::write(filePath,j_Tree_regroup);
-    std::cout<< std::setfill('\t') << j_Tree_regroup << '\n';
+    std::cout<< std::setw(1)<< std::setfill('\t') << j_Tree_regroup << '\n';
     
 }
