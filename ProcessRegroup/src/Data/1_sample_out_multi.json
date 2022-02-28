@@ -1,84 +1,84 @@
 {
+	"name": "root",
+	"type": "group",
 	"children": [
 		{
-			"children": [
-				{
-					"boundingSphere": 11.9,
-					"color": "green",
-					"material": "plastic",
-					"name": "Body4",
-					"shape": "cube",
-					"transparent": true,
-					"type": "body"
-				}
-			],
 			"name": "group cube plastic true ",
-			"type": "group"
-		},
-		{
+			"type": "group",
 			"children": [
 				{
-					"boundingSphere": 7.0,
-					"color": "yellow",
-					"material": "glass",
-					"name": "Body3",
-					"shape": "sphere",
-					"transparent": true,
-					"type": "body"
+					"name": "Body4",
+					"type": "body",
+					"shape": "cube",
+					"boundingSphere": 11.9,
+					"material": "plastic",
+					"color": "green",
+					"transparent": true
 				}
-			],
+			]
+		},
+		{
 			"name": "group sphere glass true ",
-			"type": "group"
-		},
-		{
+			"type": "group",
 			"children": [
 				{
-					"boundingSphere": 6.75,
-					"color": "white",
-					"material": "wood",
-					"name": "Body5",
-					"shape": "cylinder",
-					"transparent": false,
-					"type": "body"
-				},
-				{
-					"boundingSphere": 52.0,
-					"color": "red",
-					"material": "wood",
-					"name": "Body2",
-					"shape": "cylinder",
-					"transparent": false,
-					"type": "body"
+					"name": "Body3",
+					"type": "body",
+					"shape": "sphere",
+					"boundingSphere": 7.0,
+					"material": "glass",
+					"color": "yellow",
+					"transparent": true
 				}
-			],
+			]
+		},
+		{
 			"name": "group cylinder wood false ",
-			"type": "group"
-		},
-		{
+			"type": "group",
 			"children": [
 				{
-					"boundingSphere": 47.0,
+					"name": "Body5",
+					"type": "body",
+					"shape": "cylinder",
+					"boundingSphere": 6.75,
+					"material": "wood",
 					"color": "white",
-					"material": "plastic",
-					"name": "Body232",
-					"shape": "cube",
-					"transparent": false,
-					"type": "body"
+					"transparent": false
 				},
 				{
-					"boundingSphere": 3.0,
+					"name": "Body2",
+					"type": "body",
+					"shape": "cylinder",
+					"boundingSphere": 52.0,
+					"material": "wood",
 					"color": "red",
-					"material": "plastic",
-					"name": "Body1",
-					"shape": "cube",
-					"transparent": false,
-					"type": "body"
+					"transparent": false
 				}
-			],
+			]
+		},
+		{
 			"name": "group cube plastic false ",
-			"type": "group"
+			"type": "group",
+			"children": [
+				{
+					"name": "Body232",
+					"type": "body",
+					"shape": "cube",
+					"boundingSphere": 47.0,
+					"material": "plastic",
+					"color": "white",
+					"transparent": false
+				},
+				{
+					"name": "Body1",
+					"type": "body",
+					"shape": "cube",
+					"boundingSphere": 3.0,
+					"material": "plastic",
+					"color": "red",
+					"transparent": false
+				}
+			]
 		}
-	],
-	"name": "root",
-	"type": "group"
+	]
 }

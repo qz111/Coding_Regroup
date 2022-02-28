@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\programming\codingChallenge_zheng\ProcessRegroup
+CMAKE_SOURCE_DIR = D:\programming\Coding_Regroup\ProcessRegroup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\programming\codingChallenge_zheng\ProcessRegroup\build
+CMAKE_BINARY_DIR = D:\programming\Coding_Regroup\ProcessRegroup\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -97,14 +97,14 @@ nlohmann_json/clean:
 CMakeFiles/testregroup.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testregroup.dir\build.make CMakeFiles/testregroup.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testregroup.dir\build.make CMakeFiles/testregroup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programming\codingChallenge_zheng\ProcessRegroup\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target testregroup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programming\Coding_Regroup\ProcessRegroup\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target testregroup"
 .PHONY : CMakeFiles/testregroup.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testregroup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programming\codingChallenge_zheng\ProcessRegroup\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programming\Coding_Regroup\ProcessRegroup\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testregroup.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programming\codingChallenge_zheng\ProcessRegroup\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programming\Coding_Regroup\ProcessRegroup\build\CMakeFiles 0
 .PHONY : CMakeFiles/testregroup.dir/rule
 
 # Convenience name for target.

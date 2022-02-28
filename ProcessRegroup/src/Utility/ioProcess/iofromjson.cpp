@@ -1,6 +1,6 @@
 #include "iofromjson.h"
 
-void ioFromJson::read(const std::string& filePath, nlohmann::json& j_Object){
+void ioFromJson::read(const std::string& filePath, nlohmann::ordered_json& j_Object){
     std::ifstream datafile(filePath,std::ios_base::in);
     if(!datafile){
         std::cout<<"can not read from "+filePath<<'\n';
@@ -8,7 +8,7 @@ void ioFromJson::read(const std::string& filePath, nlohmann::json& j_Object){
     }
     datafile>>j_Object;
 }
-void ioFromJson::read(nlohmann::json& j_Object){
+void ioFromJson::read(nlohmann::ordered_json& j_Object){
     std::string text=R"({
 	"name": "root",
 	"type": "group",
@@ -70,9 +70,9 @@ void ioFromJson::read(nlohmann::json& j_Object){
 			}]
 		}]
 })";
-    j_Object=nlohmann::json::parse(text);
+    j_Object=nlohmann::ordered_json::parse(text);
 }
-void ioFromJson::write(const std::string& filePath, nlohmann::json& j_Object){
+void ioFromJson::write(const std::string& filePath, nlohmann::ordered_json& j_Object){
     std::ofstream datafile(filePath,std::ios_base::out);
     if(!datafile){
         std::cout<<"can not write to "+filePath<<'\n';

@@ -1,22 +1,22 @@
 [
 {
-  "directory": "D:/programming/codingChallenge_zheng/ProcessRegroup/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\testregroup.cpp.obj -c D:\\programming\\codingChallenge_zheng\\ProcessRegroup\\src\\testregroup.cpp",
-  "file": "D:/programming/codingChallenge_zheng/ProcessRegroup/src/testregroup.cpp"
+  "directory": "D:/programming/Coding_Regroup/ProcessRegroup/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\testregroup.cpp.obj -c D:\\programming\\Coding_Regroup\\ProcessRegroup\\src\\testregroup.cpp",
+  "file": "D:/programming/Coding_Regroup/ProcessRegroup/src/testregroup.cpp"
 },
 {
-  "directory": "D:/programming/codingChallenge_zheng/ProcessRegroup/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\Utility\\ioProcess\\iofromjson.cpp.obj -c D:\\programming\\codingChallenge_zheng\\ProcessRegroup\\src\\Utility\\ioProcess\\iofromjson.cpp",
-  "file": "D:/programming/codingChallenge_zheng/ProcessRegroup/src/Utility/ioProcess/iofromjson.cpp"
+  "directory": "D:/programming/Coding_Regroup/ProcessRegroup/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\Utility\\ioProcess\\iofromjson.cpp.obj -c D:\\programming\\Coding_Regroup\\ProcessRegroup\\src\\Utility\\ioProcess\\iofromjson.cpp",
+  "file": "D:/programming/Coding_Regroup/ProcessRegroup/src/Utility/ioProcess/iofromjson.cpp"
 },
 {
-  "directory": "D:/programming/codingChallenge_zheng/ProcessRegroup/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\Utility\\regroupProcess\\processing.cpp.obj -c D:\\programming\\codingChallenge_zheng\\ProcessRegroup\\src\\Utility\\regroupProcess\\processing.cpp",
-  "file": "D:/programming/codingChallenge_zheng/ProcessRegroup/src/Utility/regroupProcess/processing.cpp"
+  "directory": "D:/programming/Coding_Regroup/ProcessRegroup/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\Utility\\regroupProcess\\processing.cpp.obj -c D:\\programming\\Coding_Regroup\\ProcessRegroup\\src\\Utility\\regroupProcess\\processing.cpp",
+  "file": "D:/programming/Coding_Regroup/ProcessRegroup/src/Utility/regroupProcess/processing.cpp"
 },
 {
-  "directory": "D:/programming/codingChallenge_zheng/ProcessRegroup/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\Control\\monitor.cpp.obj -c D:\\programming\\codingChallenge_zheng\\ProcessRegroup\\src\\Control\\monitor.cpp",
-  "file": "D:/programming/codingChallenge_zheng/ProcessRegroup/src/Control/monitor.cpp"
+  "directory": "D:/programming/Coding_Regroup/ProcessRegroup/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 @CMakeFiles/testregroup.dir/includes_CXX.rsp -g   -std=c++11 -o CMakeFiles\\testregroup.dir\\src\\Control\\monitor.cpp.obj -c D:\\programming\\Coding_Regroup\\ProcessRegroup\\src\\Control\\monitor.cpp",
+  "file": "D:/programming/Coding_Regroup/ProcessRegroup/src/Control/monitor.cpp"
 }
 ]

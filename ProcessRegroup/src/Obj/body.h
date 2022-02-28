@@ -13,7 +13,7 @@ class body{
     bool transparent;
     public:
     body():type("body"){}
-    body(const nlohmann::json& j_Object){
+    body(const nlohmann::ordered_json& j_Object){
         name=j_Object["name"];
         type=j_Object["type"];
         shape=j_Object["shape"];
@@ -32,7 +32,7 @@ class body{
         else if(attribute=="transparent")return transparent?"true":"false";
         return "";
     }
-    void toJson(nlohmann::json& j_Object){
+    void toJson(nlohmann::ordered_json& j_Object){
         j_Object["name"]=name;
         j_Object["type"]=type;
         j_Object["shape"]=shape;

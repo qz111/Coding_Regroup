@@ -8,8 +8,8 @@
 
 class ioFromJson{
     public:
-    static void read(const std::string& filePath, nlohmann::json& j_Object);
-    static void read(nlohmann::json& j_Object);
-    static void write(const std::string& filePath, nlohmann::json& j_Object);
+    static void read(const std::string& filePath, nlohmann::ordered_json& j_Object);
+    static void read(nlohmann::ordered_json& j_Object);
+    static void write(const std::string& filePath, nlohmann::ordered_json& j_Object);
 };
 #endif
